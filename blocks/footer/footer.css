@@ -11,9 +11,3 @@
       padding: 82px 0 24px 0;
     }
   }
-  
-  @media screen and (min-width: 1024px) {
-    .footer {
-      padding-top: 92px;
-    }
-  }
