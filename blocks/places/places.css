@@ -1,7 +1,7 @@
 .places {
-    padding-top: 0;
-    object-fit: contain;
-    padding-bottom: 92px;
+    margin: 0 auto;
+    padding: 64px 0 66px;
+    display: grid;
 }
 
 @media screen and (max-width:768px) {
