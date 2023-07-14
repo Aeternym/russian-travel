@@ -7,7 +7,7 @@
 }
 @media  screen and (max-width:767px) {
     .place__website{
-        align-self:normal; 
+        align-self:normal;
         padding-left: 16px;
         padding-right: 16px;
         padding-top: 0;
