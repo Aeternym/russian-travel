@@ -4,7 +4,7 @@
     display: grid;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:769px) {
     .places {
         padding-bottom: 88px;
     }
