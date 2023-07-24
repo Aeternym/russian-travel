@@ -8,37 +8,20 @@
     text-align: center;
     margin: 0;
     padding-top: 0;
-    padding-left: 320px;
-    padding-right: 320px;
     padding-bottom: 64px;
-    font-family: 'Inter', Arial, sans-serif;
-}
-@media screen and (min-width:768px) and (max-width:1024px) {
-    .lead__subtitle {
-        padding-bottom: 56px;
-        padding-left: 192px;
-        padding-right: 192px;
-        line-height: 36px;
-    }
-    
-}
-@media  screen and (min-width:426px) and (max-width:767px) {
-    .lead__subtitle{
-        padding-bottom: 56px;
-        padding-left: 64px;
-        padding-right: 64px;
-        font-size: 16px;
-        line-height: 20px;
-        
-    }
 }
 
-@media screen and (max-width:425px) {
+@media screen and (max-width:1024px) {
+    .lead__subtitle {
+        padding-bottom: 56px;
+    }
+
+}
+
+@media screen and (max-width:767px) {
     .lead__subtitle {
         font-size: 16px;
-        line-height: 20px;
+        line-height: 125%;
         padding-bottom: 40px;
-        padding-left: 16px;
-        padding-right: 16px;
     }
 }
