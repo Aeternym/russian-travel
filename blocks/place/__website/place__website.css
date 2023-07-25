@@ -22,11 +22,8 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
     .place__website {
         align-self:normal;
-        padding-bottom: 0;
-        padding-left: 16px;
-        padding-right: 16px;
     }
 }
