@@ -3,12 +3,26 @@
     flex-direction: column;
     align-self: flex-end;
     padding-top: 0;
-    padding-bottom: 48px;
+    padding-bottom: 0;
     margin: 0;
 }
 
+@media screen and (min-width: 768px) {
+    .place__website {
+        padding-bottom: 48px;
+    }
+}
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
+    .place__website {
+        align-self:flex-end;
+        padding-bottom: 0;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+
+@media screen and (max-width: 320px) {
     .place__website {
         align-self:normal;
         padding-bottom: 0;
