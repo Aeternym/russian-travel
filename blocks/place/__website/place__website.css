@@ -15,15 +15,15 @@
 
 @media screen and (max-width: 768px) {
     .place__website {
-        align-self:flex-end;
         padding-bottom: 0;
-        padding-left: 16px;
-        padding-right: 16px;
+        align-self:flex-end;
     }
 }
 
 @media screen and (max-width: 425px) {
     .place__website {
+        padding-left: 16px;
+        padding-right: 16px;
         align-self:normal;
     }
 }
